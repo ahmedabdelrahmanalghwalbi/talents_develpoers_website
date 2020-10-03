@@ -1,0 +1,532 @@
+/* start rulez */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: white
+}
+
+ul {
+
+	list-style: none;
+}
+
+ul li {
+	display: inline-block;
+	margin-right: 2.3%;
+}
+
+.container {
+
+	width: 90%;
+	margin: auto;
+}
+
+/* end rulez */
+
+
+/* end section one */
+
+#one {
+
+	background-image: url(imageedit_2_6817079569.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 50rem;
+	position: relative;
+}
+
+.op {
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	z-index: 999;
+	display: none;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.opp {
+
+	position: fixed !important;
+
+}
+
+#one .nav {
+
+	height: 5rem;
+	position: relative;
+	width: 100%;
+	z-index: 999;
+
+}
+
+#one .logo {
+
+	width: 10rem;
+	display: inline-block;
+	position: absolute;
+	top: 40%;
+	left: 3%;
+}
+
+#one .logo img {
+
+	width: 100%;
+	display: inline-block;
+}
+
+#one .nav>div:last-child {
+
+	position: absolute;
+	top: 40%;
+	right: 3%;
+	color: white;
+	width: 50%
+}
+
+#one .nav>div:last-child ul {
+
+	width: 63%;
+	margin-left: auto;
+}
+
+#one .nav>div:last-child ul li:first-child {
+
+	color: #1bdcab;
+}
+
+.banner-content {
+
+	position: absolute;
+	top: 20%;
+	left: 3%;
+}
+
+.banner-content>div:first-child {
+
+	color: white;
+	width: 35%;
+	font-size: 24px;
+}
+
+.banner-content>div:nth-child(2) {
+
+	color: white;
+	width: 35%;
+	font-size: 21px;
+	margin-top: 3%;
+	margin-bottom: 4%;
+}
+
+.banner-content>div:last-child button:last-child {
+
+	margin-left: 1%;
+	padding: .8%;
+	border: none;
+	background: none;
+	background-color: #1bdcab;
+	color: white;
+	width: 11%;
+	border-radius: 6%;
+	cursor: pointer;
+}
+
+.banner-content>div:last-child button:first-child {
+
+	padding: .8%;
+	border: none;
+	color: white;
+	width: 11%;
+	border: 1px solid white;
+	border-radius: 6%;
+	background: none;
+	cursor: pointer;
+
+}
+
+.nav {
+	position: relative;
+}
+
+/* end section one */
+
+/* start section two */
+
+#two h1 {
+
+	text-align: center;
+	margin: 3% 0;
+}
+
+#two>p {
+
+	text-align: center;
+	margin: 3% 0;
+	color: rgba(41, 40, 41, 0.7);
+	font-size: 23px
+}
+
+
+#two .service {
+
+	display: flex;
+	margin: auto;
+	width: 90%;
+	text-align: center;
+	margin-left: 7%;
+}
+
+#two .service div {
+
+	background-color: rgba(41, 40, 41, 0.03);
+	padding: 3%;
+	width: 33%
+}
+
+#two .service div:not(:last-child) {
+
+	margin-right: 3%;
+}
+
+#two .service>div img {
+
+	width: 12rem;
+}
+
+#two .service>div:last-child img {
+
+	height: 9.5rem;
+	width: 12rem
+}
+
+#two .service div p {
+
+	color: rgba(41, 40, 41, 0.7);
+	font-size: 90%;
+	margin-top: 6%;
+}
+
+#two button {
+
+	margin-left: 1%;
+	padding: .8%;
+	border: none;
+	background: none;
+	background-color: #1bdcab;
+	color: white;
+	width: 11%;
+	border-radius: 6%;
+	cursor: pointer;
+	text-align: center;
+	margin: auto;
+	display: block;
+	margin-top: 5%;
+}
+
+/* end section two */
+
+
+/* start section three */
+
+#three {
+
+	margin-top: 4%;
+}
+
+#three .features {
+
+	display: flex;
+	margin: auto;
+	width: 90%;
+}
+
+#three .features>div:not(:last-child) {
+
+	width: 50%;
+	margin: 0 3% 0 0;
+}
+
+#three .features>div:last-child {
+
+	width: 50%;
+}
+
+#three .features .feature>div {
+
+	display: flex;
+	padding: 3%;
+	position: relative;
+	margin-top: 7%;
+	box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.05),
+		-1px -1px 20px rgba(0, 0, 0, 0.05);
+}
+
+#three .features .feature>div div:last-child {
+
+	position: absolute;
+	top: 14%;
+	left: 20%
+}
+
+#three .features .feature div div:last-child {
+
+	display: inline;
+	width: 54%;
+	font-size: 100%;
+	font-weight: bold;
+	color: rgba(41, 40, 41, 0.7)
+}
+
+#three .features .feature img {
+
+	width: 5rem;
+
+}
+
+#three .features div:last-child {
+
+	padding: 3%;
+}
+
+#three .features:last-child h1 {
+
+	font-size: 38px;
+	margin-bottom: 3%;
+}
+
+#three .features:last-child h1 span {
+
+	color: #fdd835;
+}
+
+#three .features>div:nth-child(2) p {
+
+	color: rgba(41, 40, 41, 0.7);
+	font-size: 137%;
+}
+
+
+/* end section three */
+
+
+/* start section four */
+
+#four {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 8% 0;
+	text-align: center;
+	background-color: rgba(127, 255, 212, .2);
+	padding: 5%;
+}
+
+#four div {
+
+	width: 60%;
+	line-height: 1.9;
+}
+
+#four div h1 {
+
+	font-size: 190%;
+}
+
+#four div p {
+
+	color: rgba(41, 40, 41, 0.61);
+	font-size: 120%;
+	font-weight: bold;
+}
+
+
+/* end section four */
+
+
+/* start section five */
+
+#five>h2 {
+
+	text-align: center;
+	margin-bottom: 1%;
+
+}
+
+#five>p {
+
+	text-align: center;
+	color: rgba(41, 40, 41, 0.7);
+	font-size: 128%;
+}
+
+#five .our-serv {
+
+	display: flex;
+	width: 90%;
+	margin: 3% auto;
+
+}
+
+#five .our-serv div {
+
+	width: 33%;
+	text-align: center;
+	padding: 4%;
+	background-color: rgba(41, 40, 41, 0.03);
+}
+
+#five .our-serv div:not(:last-child) {
+
+	margin-right: 2%;
+}
+
+#five .our-serv div img {
+
+	width: 12rem;
+}
+
+#five .our-serv div:last-child img {
+
+	width: 11rem;
+	margin-top: -3%;
+}
+
+#five .our-serv div h3 {
+
+	margin-bottom: 9%;
+	font-size: 100%;
+}
+
+#five .our-serv div p {
+
+	color: rgba(41, 40, 41, .7);
+	margin-top: 9%;
+}
+
+#five button {
+
+	margin-left: 1%;
+	padding: .8%;
+	border: none;
+	background: none;
+	background-color: #1bdcab;
+	color: white;
+	width: 11%;
+	border-radius: 6%;
+	cursor: pointer;
+	text-align: center;
+	margin: auto;
+	display: block;
+	margin-top: 5%;
+	margin-bottom: 5%;
+
+}
+
+/* end section five */
+
+
+/* start section six */
+
+#six>h2,
+#six>p {
+
+	text-align: center;
+	font-size: 150%;
+	margin-bottom: 1.5%;
+
+}
+
+#six>p {
+
+	color: rgba(41, 40, 41, .7);
+}
+
+#six .hiring-steps {
+
+	display: flex;
+	width: 90;
+	margin: auto;
+	margin-top: 4%;
+}
+
+#six .hiring-steps>div {
+
+	width: 48%;
+}
+
+#six .hiring-steps>div:first-child img {
+
+	width: 90%;
+}
+
+#six .hiring-steps>div:first-child {
+
+	margin-right: 3%;
+}
+
+#six .hiring-steps>div:last-child>div:not(:last-child) {
+
+	margin-bottom: 5%;
+}
+
+#six .hiring-steps>div:last-child>div h2 {
+
+	font-size: 120%;
+}
+
+#six .hiring-steps>div:last-child>div p {
+
+	font-size: 100%;
+}
+
+footer {
+
+	background-color: #202121;
+	color: white;
+	padding: 2% 5%;
+}
+
+footer .foot {
+
+	display: flex;
+}
+
+footer .foot>div {
+
+	width: 33.333%;
+}
+
+footer .foot>div:first-child img {
+
+	width: 40%;
+}
+
+footer .foot>div:nth-child(2) i {
+
+	font-size: 264%;
+	margin-right: 3%;
+	border-radius: 100%;
+	text-align: center;
+
+}
+
+footer .foot div:last-child div {
+
+	display: flex;
+	padding: 1%;
+	margin-left: 1.2%;
+}
+
+/* end section six */
+
+************************************************************************************************************** .op {
+
+	opacity: 1 !important;
+	display: none;
+}

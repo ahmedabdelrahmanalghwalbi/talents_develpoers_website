@@ -1,0 +1,281 @@
+/* start rulez */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+ul {
+
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+hr {
+
+	background-color: (0, 0, 0, 0.3)
+}
+
+ul li {
+	display: inline-block;
+	margin-right: 2.3%;
+}
+
+.container {
+
+	width: 90%;
+	margin: auto;
+}
+
+input[type='checkbox'] {
+
+	-webkit-appearance: none;
+	appearance: none;
+	width: 13px;
+	height: 13px;
+	border: 1px solid;
+	border-radius: 25%;
+	box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.2);
+	cursor: pointer;
+}
+
+/* end rulez */
+
+
+/* end section one */
+
+#one {
+
+	background-image: url(imageedit_2_6817079569.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 80rem;
+	position: relative;
+}
+
+.op {
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	opacity: 0;
+	position: absolute;
+	z-index: 999;
+}
+
+#one .nav {
+
+	height: 5rem;
+	position: relative;
+	width: 100%;
+	z-index: 999;
+
+}
+
+
+
+#one .nav ul {
+
+	width: 100%;
+	margin-left: auto;
+}
+
+
+#one .logo {
+
+	width: 10rem;
+	display: inline-block;
+	position: absolute;
+	top: 40%;
+	left: 3%;
+}
+
+#one .logo img {
+
+	width: 100%;
+	display: inline-block;
+}
+
+#one .nav>div:last-child {
+
+	position: absolute;
+	top: 40%;
+	right: 3%;
+	color: white;
+	width: 31%
+}
+
+#one .nav div:last-child ul li:nth-child(2) {
+
+	color: #1bdcab;
+}
+
+
+.nav {
+	/* position: relative; */
+}
+
+#one .main {
+	/*******************************************************/
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 70rem;
+	line-height: 1.9;
+}
+
+#one .main div:first-child>h1 {
+
+	color: aqua;
+	text-align: center;
+	font-size: 277%
+}
+
+#one .main div:first-child>p {
+
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-size: 121%;
+}
+
+#one .form {
+
+	width: 50%;
+	margin: auto;
+	height: 70rem;
+	background-color: white;
+	margin-top: 4%;
+	border-radius: 2%;
+	padding: 3%;
+}
+
+#one .form h5 {
+
+	color: rgba(0, 0, 0, .69);
+	margin: 0 0 2% 2%;
+}
+
+#one .form>div {
+
+	width: 100%;
+	background-color: rgba(0, 0, 0, .1);
+	height: 2.8rem;
+	border-radius: 100px;
+	padding: 2%;
+}
+
+/**/
+
+#one .form form>label {
+
+	margin: 4% 0;
+	color: rgba(0, 0, 0, 0.8);
+	font-weight: bold;
+	display: inline-block;
+}
+
+
+#one .form>div div {
+
+	height: 1.3rem;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .25);
+	border-radius: 100px;
+	position: relative;
+
+}
+
+#one .form>div>div span {
+
+	text-align: left;
+	color: rgba(0, 0, 0, .45);
+	position: absolute;
+	top: -15%;
+	left: 2%;
+}
+
+#one .form form div:first-child {
+
+	/*display: flex;*/
+}
+
+#one .form form>div {
+
+	display: flex;
+	font-size: 14px;
+	margin-right: 20px;
+	justify-content: space-between;
+	white-space: nowrap;
+
+}
+
+#one .form form>div div:not(:last-child) {
+
+	margin-right: 4%;
+}
+
+#one .form form button {
+
+	padding: .8%;
+	border: none;
+	background: none;
+	background-color: #1bdcab;
+	color: white;
+	width: 11%;
+	border-radius: 6%;
+	cursor: pointer;
+	margin-top: 6%;
+	margin-top: 9%;
+	width: 15%;
+}
+
+/* end section one */
+/***********************************************/
+
+
+
+/* start footer */
+footer {
+
+	background-color: #202121;
+	color: white;
+	padding: 2% 5%;
+}
+
+footer .foot {
+
+	display: flex;
+}
+
+footer .foot>div {
+
+	width: 33.333%;
+}
+
+footer .foot>div:first-child img {
+
+	width: 40%;
+}
+
+footer .foot>div:nth-child(2) i {
+
+	font-size: 264%;
+	margin-right: 3%;
+	border-radius: 100%;
+	text-align: center;
+
+}
+
+footer .foot div:last-child div {
+
+	display: flex;
+	padding: 1%;
+	margin-left: 1.2%;
+}
